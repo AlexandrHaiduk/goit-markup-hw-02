@@ -1,152 +1,291 @@
-* {
-    font-family: roboto;
+body {
+  font-family: roboto;
 }
 
+                                                    /* !!!INDEX.HTML!!! */
+
 .wrapper {
-    width: 1170px;
-    margin: 0 auto;
-    min-width: 1170px;
+  width: 1170px;
+  margin: 0 auto;
+  min-width: 1170px;
 }
 
 header {
-    width: 100%;
-    height: 80px;
-
+  width: 100%;
+  height: 80px;
+  border-bottom: solid 1px #ECECEC;
 }
 
-.logo{
-    display: inline-block;
-    font-family: raleway;
-    font-size: 26px;
-    color: #2196F3;
-    line-height: 80px;
+.logo {
+  display: inline-block;
+  font-family: raleway;
+  font-size: 26px;
+  color: #2196f3;
+  line-height: 80px;
+  font-weight: 700;
 }
 
 .logo span {
-    color: #000;
+  color: #000;
 }
 
 header li {
-    display: inline-block;
-    
+  display: inline-block;
 }
 
 .header-menu {
-   font-size: 1rem;
-   display: inline-block;
-   line-height: 80px;
-
+  font-size: 1rem;
+  display: inline-block;
+  line-height: 80px;
+  font-weight: 500;
 }
 
 .header-menu ul {
-    margin-top: 0;
+  margin-top: 0;
 }
 
 .header-menu a {
-    padding-left: 48px;
+  padding-left: 48px;
 }
 
 .header-menu a:visited {
-    color:#000;
+  color: #000;
 }
 
 .header-menu a:hover {
-    color: #2196F3;
- }
+  color: #2196f3;
+}
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .mail {
-    font-size: 1rem; 
-    color: #757575;
-    display: inline-block;  
-    line-height: 80px;
-    margin-left: 300px;
-
+  font-size: 1rem;
+  color: #757575;
+  display: inline-block;
+  line-height: 80px;
+  margin-left: 294px;
+  font-weight: 500;
 }
 
 .mail:hover {
-    color: #2196F3;
-    
+  color: #2196f3;
 }
 
 .telephone {
-    font-size: 1rem;
-    color: #757575;
-    display: inline-block;
-    padding-left: 50px;
-
+  font-size: 1rem;
+  color: #757575;
+  display: inline-block;
+  margin-left: 50px;
+  font-weight: 500;
 }
 
 .telephone:hover {
-    color:#2196F3;
+  color: #2196f3;
 }
 
-.order {
-    background-color: #2F303A;
-    color: white;
-    width: 100%;
-    height: 600px;
-    text-align: center;
+/* End of header */ /* End of header */ /* End of header */ /* End of header */ /* End of header */ /* End of header */ /* End of header */
 
+/* !!!START OF MAIN SECTION!!!! */
+.order {
+  background-color: #2f303a;
+  color: white;
+  width: 100%;
+  height: 600px;
+  text-align: center;
 }
 
 .order h1 {
-    text-transform: uppercase;
-    width: 570px;
-    margin: 0 auto;
-    padding-top: 220px;
-    line-height: 136%;
-    font-size: 44px;
-
+  text-transform: uppercase;
+  width: 570px;
+  margin: 0 auto;
+  padding-top: 220px;
+  line-height: 136%;
+  font-size: 44px;
 }
 
 .order button {
-    width: 200px;
-    height: 50px;
-    background-color: #2196F3;
-    border: 0ch;
-    border-radius: 4px;
-    color: #fff;
-    font-size: 16px;
-    margin-top: 30px;
+  width: 200px;
+  height: 50px;
+  background-color: #2196f3;
+  border: 0ch;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 16px;
+  margin-top: 30px;
 }
 
 .order button:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
-
-.advantage{
-    margin-top: 94px;
+/* end of order */ /* end of order */ /* end of order */ /* end of order */ /* end of order */ /* end of order */ /* end of order */
+.advantage {
+  margin-top: 94px;
 }
-.advantage div{
-    width: 270px;
-    display: inline-block;
+.advantage div {
+  width: 270px;
+  display: inline-block;
 }
 
 .advantage div dt {
-    font-size: 1 rem;
-    font-weight: 700;
-    margin-bottom: 10px;
+  font-size: 1 rem;
+  font-weight: 700;
+  margin-bottom: 10px;
 }
 
 .advantage div dd {
-    font-size: 1 rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1.7;
-
+  font-size: 1 rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.7;
 }
 
-.advantage div:nth-child(n+2){
-    margin-left: 25px;
+.advantage div:nth-child(n + 2) {
+  margin-left: 25px;
 }
 
-.advantage div dd{
-    margin: 0;
+.advantage div dd {
+  margin: 0;
+}
+/* end of advantage */ /* end of advantage */ /* end of advantage */ /* end of advantage */ /* end of advantage */ /* end of advantage */
+
+.description {
+  text-align: center;
+  font-size: 0px;
+  font-weight: 700;
 }
 
-.
+.description h2 {
+  font-size: 36px;
+}
 
+.description img {
+  width: 370px;
+  height: 294px;
+  font-size: 0;
+  margin-left: 30px;
+}
+
+.description img:first-of-type {
+  margin-left: 0;
+}
+/* end of discription */ /* end of discription */ /* end of discription */ /* end of discription */ /* end of discription */ /* end of discription */
+
+.team {
+  text-align: center;
+  font-size: 0px;
+  margin-top: 118px;
+}
+
+.team h2 {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.team div {
+  display: inline-block;
+  margin-left: 30px;
+  margin-top: 30px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.team div:first-of-type {
+  margin-left: 0;
+}
+
+.team div img {
+  width: 270px;
+  height: 260px;
+}
+
+.team h4 {
+  font-weight: 500;
+  font-size: 16px;
+  color: #212121;
+}
+
+.team p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #757575;
+}
+
+/* end of team */ /* end of team */ /* end of team */ /* end of team */ /* end of team */ /* end of team */ /* end of team */ /* end of team */
+
+/* !!!END OF MAIN SECTION!!!! */
+
+footer {
+  height: 252px;
+  background-color: #2f303a;
+  color: #fff;
+  margin-top: 94px;
+}
+
+footer .logo {
+  margin-top: 60px;
+  margin-bottom: 20px;
+  font-size: 26px;
+  line-height: normal;
+}
+
+footer .logo span {
+  color: #fff;
+}
+
+footer .mail {
+  font-size: 14px;
+  line-height: 24px;
+  color: #fff;
+  margin-top: 9px;
+  margin-left: 0;
+  margin-bottom: 9px;
+  display: block;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+footer .telephone {
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.6);
+  margin-left: 0;
+}
+
+                                             /* !!!INDEX.HTML END!!! */    
+
+                                             /* !!!PORTFOLIO.HTML!!! */
+
+
+.filter {
+    font-size: 0px;
+    width: 554px;
+    margin: 0 auto;
+    margin-top: 94px;
+    padding: 0;
+}
+
+.filter li {
+    display: inline-block;
+    margin-left: 8px;
+}
+
+.filter li:first-child {
+    margin-left: 0px;
+}
+
+.filter li button {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 500;
+    background-color: #F5F4FA;
+    padding: 6px 22px;
+    border: 0px;
+    border-radius: 4px;
+}
+
+.filter li button:hover {
+    background-color: #2196F3;
+    cursor: pointer;
+}
