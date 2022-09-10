@@ -257,7 +257,7 @@ footer .telephone {
 
                                              /* !!!PORTFOLIO.HTML!!! */
 
-
+/* Filter section *//* Filter section */  
 .filter {
     font-size: 0px;
     width: 554px;
@@ -288,4 +288,43 @@ footer .telephone {
 .filter li button:hover {
     background-color: #2196F3;
     cursor: pointer;
+}
+
+/* example section *//* example section */
+
+.example {
+    margin-top: 34px;
+}
+
+.example div {
+    display: inline-block;
+    width: 31%;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    border: solid 1px #EEEEEE;
+}
+
+.example img {
+    width: 100%;
+}
+
+.example div:nth-child(3n+1){
+    margin-left: 0;
+    color: red;
+}
+
+.example h4 {
+    font-size: 18px;
+    line-height: 36px;
+    font-weight: 700;
+    color: #212121;
+    padding-left: 24px;
+}
+
+.example p {
+    font-size: 16px;
+    line-height: 36px;
+    font-weight: 400;
+    color: #757575;
+    padding-left: 24px;
 }
