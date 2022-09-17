@@ -299,7 +299,7 @@ footer .telephone {
 .example div {
     display: inline-block;
     width: 31%;
-    margin-left: 30px;
+    margin-left: 36.5px;
     margin-bottom: 30px;
     border: solid 1px #EEEEEE;
 }
@@ -319,6 +319,9 @@ footer .telephone {
     font-weight: 700;
     color: #212121;
     padding-left: 24px;
+    margin-top: 23px;
+    margin-bottom: 0;
+
 }
 
 .example p {
@@ -327,4 +330,5 @@ footer .telephone {
     font-weight: 400;
     color: #757575;
     padding-left: 24px;
+    margin-top: 0px;
 }
