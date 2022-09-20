@@ -2,6 +2,14 @@ body {
   font-family: roboto;
 }
 
+a {
+  text-decoration: none;
+}
+
+ul {
+  display: inline-block;
+}
+
                                                     /* !!!INDEX.HTML!!! */
 
 .wrapper {
@@ -24,6 +32,7 @@ header {
   line-height: 80px;
   font-weight: 700;
 }
+
 
 .logo span {
   color: #000;
@@ -48,16 +57,12 @@ header li {
   padding-left: 48px;
 }
 
-.header-menu a:visited {
-  color: #000;
+.ul li a:visited {
+  color: black;
 }
 
 .header-menu a:hover {
   color: #2196f3;
-}
-
-a {
-  text-decoration: none;
 }
 
 .mail {
@@ -123,29 +128,29 @@ a {
 .advantage {
   margin-top: 94px;
 }
-.advantage div {
+.advantage dl {
   width: 270px;
   display: inline-block;
 }
 
-.advantage div dt {
+.advantage dl dt {
   font-size: 1 rem;
   font-weight: 700;
   margin-bottom: 10px;
 }
 
-.advantage div dd {
+.advantage dl dd {
   font-size: 1 rem;
   font-style: normal;
   font-weight: 400;
   line-height: 1.7;
 }
 
-.advantage div:nth-child(n + 2) {
+.advantage dl:nth-child(n + 2) {
   margin-left: 25px;
 }
 
-.advantage div dd {
+.advantage dl dd {
   margin: 0;
 }
 /* end of advantage */ /* end of advantage */ /* end of advantage */ /* end of advantage */ /* end of advantage */ /* end of advantage */
@@ -160,14 +165,15 @@ a {
   font-size: 36px;
 }
 
-.description img {
+.description li {
   width: 370px;
   height: 294px;
   font-size: 0;
   margin-left: 30px;
+  display: inline-block;
 }
 
-.description img:first-of-type {
+.description li:first-of-type {
   margin-left: 0;
 }
 /* end of discription */ /* end of discription */ /* end of discription */ /* end of discription */ /* end of discription */ /* end of discription */
@@ -178,12 +184,12 @@ a {
   margin-top: 118px;
 }
 
-.team h2 {
-  font-size: 36px;
-  font-weight: 700;
+.team li h3 {
+  font-size: 16px;
+  font-weight: 500;
 }
 
-.team div {
+.team li {
   display: inline-block;
   margin-left: 30px;
   margin-top: 30px;
@@ -192,20 +198,15 @@ a {
   border-radius: 0px 0px 4px 4px;
 }
 
-.team div:first-of-type {
+.team li:first-of-type {
   margin-left: 0;
 }
 
-.team div img {
+.team img {
   width: 270px;
   height: 260px;
 }
 
-.team h4 {
-  font-weight: 500;
-  font-size: 16px;
-  color: #212121;
-}
 
 .team p {
   font-weight: 400;
@@ -259,11 +260,13 @@ footer .telephone {
 
 /* Filter section *//* Filter section */  
 .filter {
+    display: block;
     font-size: 0px;
     width: 554px;
     margin: 0 auto;
     margin-top: 94px;
     padding: 0;
+
 }
 
 .filter li {
