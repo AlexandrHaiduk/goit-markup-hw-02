@@ -135,30 +135,37 @@ header li > a:visited {
   text-align: center;
 }
 
-.advantage dl {
+/* .advantage dl {
   width: 270px;
   display: inline-block;
   text-align: left;
+} */
+
+.advantage li {
+  display: inline-block;
+  width: 23%;
+  text-align: left;
+  vertical-align: top;
 }
 
-.advantage dl dt {
+.advantage li:nth-child(n + 2) {
+  margin-left: 25px;
+}
+
+.advantage h3 {
   font-weight: 700;
   margin-bottom: 10px;
 }
 
-.advantage dl dd {
+.advantage p {
   font-style: normal;
   font-weight: 400;
   line-height: 1.7;
-}
-
-.advantage dl:nth-child(n + 2) {
-  margin-left: 25px;
-}
-
-.advantage dl dd {
   margin: 0;
 }
+
+
+
 /* end of advantage */ /* end of advantage */ /* end of advantage */ /* end of advantage */ /* end of advantage */ /* end of advantage */
 
 .description {
