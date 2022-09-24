@@ -15,7 +15,12 @@ body {
 
 a {
   text-decoration: none;
+
 }
+a:visited {
+  color: var(--main-text-color);
+}
+
 
 ul {
   display: inline-block;
@@ -52,6 +57,10 @@ header {
   margin-left: 48px;
 }
 
+.logo:visited {
+  color: var(--accent-color);
+}
+
 .logo span {
   color: var(--main-text-color);
 }
@@ -80,9 +89,9 @@ header li {
   padding-left: 50px;
 }
 
-.nav-main a:visited {
-  color: var(--main-text-color);
-}
+/* .nav-main a:visited {
+  color: inherit;
+} */
 
 .mail {
   font-size: 1rem;
@@ -212,9 +221,12 @@ header li {
   text-align: center;
   font-size: 0px;
   margin-top: 80px;
+  min-height: 648px;
+  background-color: #F5F4FA;
+  padding-top: 94px;
 }
 
-.team h2{
+.team h2 {
   font-size: 36px;
   font-weight: 700;
 }
