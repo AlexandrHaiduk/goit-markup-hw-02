@@ -299,6 +299,10 @@ footer .telephone {
   margin-left: 0;
 }
 
+a[href="https://maps.app.goo.gl/7ZDGBoMSbiY7wvF3A?g_st=ic"] {
+  color: var(--white-color);
+}
+
 a[href="https://maps.app.goo.gl/7ZDGBoMSbiY7wvF3A?g_st=ic"]:visited
 {
   color: var(--white-color);
