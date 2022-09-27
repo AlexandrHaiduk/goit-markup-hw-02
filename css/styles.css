@@ -24,7 +24,7 @@ body {
   list-style: none;
 }
 
-/* !!!INDEX.HTML!!! */
+/* ----------------!!!INDEX.HTML!!!---------------- */
 
 .logo {
   font-family: var(--logo-font), sans-serif;
@@ -81,7 +81,7 @@ body {
 
 .hero-heading {
   font-size: 44px;
-  line-height: 1.35;
+  line-height: 1.36;
   text-transform: uppercase;
   font-weight: 900;
   text-align: center;
@@ -186,7 +186,16 @@ body {
   color: var(--footer-text-color);
 }
 
-/* !!!PORTFOLIO.HTML!!! */
+.footer .mail:focus,
+.footer .mail:hover,
+.footer .telephone:focus,
+.footer .telephone:hover,
+.map-pointer:hover,
+.map-pointer:focus {
+  color: var(--accent-color);
+}
+
+/* ----------------!!!PORTFOLIO.HTML!!!------------------ */
 
 /* FILTER SECTION */
 
