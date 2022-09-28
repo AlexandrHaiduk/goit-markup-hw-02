@@ -4,6 +4,7 @@
   --secondary-text-color: #757575;
   --footer-text-color: rgba(255, 255, 255, 0.6);
   --accent-color: #2196f3;
+  --button-hover-color: #188ce8;
   --secondary-accent-color: #2f303a;
   --white-color: #ffffff;
   --secondary-background-color: #f5f4fa;
@@ -38,7 +39,7 @@ body {
   color: var(--main-text-color);
 }
 
-.header-menu {
+.nav-main {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -100,7 +101,7 @@ body {
 .hero-button:focus,
 .hero-button:hover {
   cursor: pointer;
-  background-color: #188ce8;
+  background-color: var(--button-hover-color);
 }
 
 /* !!!!!!! ADVANTAGE SECTION!!!!!!!! */
@@ -113,10 +114,11 @@ body {
   text-transform: uppercase;
 }
 
-.advantage-descrition {
+.advantage-description {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
 }
 
 /* !!!!!!!!ABOUT SECTION!!!!!!!!!!! */
@@ -126,7 +128,6 @@ body {
   line-height: 1.17;
   font-weight: 700;
   letter-spacing: 0.03em;
-  text-transform: uppercase;
 }
 
 /* !!!!!!!!!TEAM SECTION!!!!!!!!! */
@@ -214,6 +215,7 @@ body {
 .filter-button:focus,
 .filter-button:hover {
   background-color: var(--accent-color);
+  color: var(--white-color);
   cursor: pointer;
 }
 
@@ -240,13 +242,13 @@ body {
 
 .visually-hidden {
   position: absolute;
-    white-space: nowrap;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
-    border: 0;
-    padding: 0;
-    clip: rect(0 0 0 0);
-    clip-path: inset(50%);
-    margin: -1px;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
 }
